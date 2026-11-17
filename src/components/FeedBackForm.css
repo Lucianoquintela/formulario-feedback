@@ -1,4 +1,3 @@
-
 .containerForm {
     background-color: rgb(204, 211, 211);
     width: 50%;
@@ -61,5 +60,6 @@
 @media (max-width: 600px) {
     .containerForm {
         width: 90%;
+        height: 470px;
     }
 }
