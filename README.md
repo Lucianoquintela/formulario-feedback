@@ -1,16 +1,71 @@
-# React + Vite
+# Formulário de Feedback
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Projeto desenvolvido durante os estudos de React no programa Geração Tech.
 
-Currently, two official plugins are available:
+## 🚀 Projeto online
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Acesse o formulário: [Formulário de Feedback](COLE_AQUI_O_LINK_DA_VERCEL)
 
-## React Compiler
+## 📋 Sobre o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo é criar um formulário de feedback utilizando React, trabalhando principalmente com o hook `useState` para controlar os valores dos campos e atualizar a interface conforme a interação do usuário.
 
-## Expanding the Oxlint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Campo para informar o nome.
+- Campo para informar o e-mail.
+- Campo para escrever um comentário.
+- Gerenciamento dos campos com `useState`.
+- Verificação de campos vazios.
+- Exibição de mensagem de erro.
+- Exibição dos dados preenchidos ao enviar o formulário.
+- Layout adaptável para dispositivos móveis.
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Lucianoquintela/formulario-feedback.git
+```
+
+Entre na pasta:
+
+```bash
+cd formulario-feedback
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento, foram praticados:
+
+- Criação de componentes React.
+- Uso do hook `useState`.
+- Eventos `onChange` e `onClick`.
+- Renderização de conteúdo com JSX.
+- Validação básica de campos.
+- Organização de componentes e arquivos CSS.
+
+---
+
+Desenvolvido como atividade prática de React — Geração Tech.
