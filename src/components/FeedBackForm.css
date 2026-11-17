@@ -1,0 +1,65 @@
+
+.containerForm {
+    background-color: rgb(204, 211, 211);
+    width: 50%;
+    max-width: 500px;
+    height: 460px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerForm h1 {
+    text-align: center;
+}
+
+.areaNome,
+.areaEmail,
+.areaComentario,
+.areaBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.areaNome input,
+.areaEmail input,
+.areaComentario textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.areaComentario textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.areaBtn button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.areaBtn button:hover {
+    background-color: #1d4ed8;
+}
+
+.msgErro {
+    color: rgb(185, 10, 10);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .containerForm {
+        width: 90%;
+    }
+}
